@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
     return (
         <>
@@ -14,7 +16,7 @@ function Home() {
                                     Contrary to popular belief, Lorem Ipsum is not simply random text
                                     It has roots in a piece of classical.
                                 </p>
-                                <a href="appointment.html" className="common_btn">Get Appointment</a>
+                                <Link to="/appointment" className="common_btn">Get Appointment</Link>
                             </div>
                         </div>
                         <div className="col-md-5 col-xl-6 wow fadeInRight" data-wow-duration="1s">
