@@ -6,6 +6,7 @@ function Doctors() {
         {
             id: 1,
             name: "Dr. John Doe",
+            slug: "dr.john-doe",
             department: "Cardiology",
             qualification: "MBBS, MD",
             image: "assets/images/team-1.jpg",
@@ -13,6 +14,7 @@ function Doctors() {
         {
             id: 2,
             name: "Dr. John Doe",
+            slug: "dr.john-doe",
             department: "Cardiology",
             qualification: "MBBS, MD",
             image: "assets/images/team-2.jpg",
@@ -20,6 +22,7 @@ function Doctors() {
         {
             id: 3,
             name: "Dr. John Doe",
+            slug: "dr.john-doe",
             department: "Cardiology",
             qualification: "MBBS, MD",
             image: "assets/images/team-3.jpg",
@@ -27,6 +30,7 @@ function Doctors() {
         {
             id: 4,
             name: "Dr. John Doe",
+            slug: "dr.john-doe",
             department: "Cardiology",
             qualification: "MBBS, MD",
             image: "assets/images/team-4.jpg",
@@ -34,6 +38,7 @@ function Doctors() {
         {
             id: 5,
             name: "Dr. John Doe",
+            slug: "dr.john-doe",
             department: "Cardiology",
             qualification: "MBBS, MD",
             image: "assets/images/team-3.jpg",
@@ -41,6 +46,7 @@ function Doctors() {
         {
             id: 6,
             name: "Dr. John Doe",
+            slug: "dr.john-doe",
             department: "Cardiology",
             qualification: "MBBS, MD",
             image: "assets/images/team-4.jpg",

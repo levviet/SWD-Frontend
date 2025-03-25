@@ -29,7 +29,7 @@ function Doctor({data}) {
                     <h6>{doctor.name}</h6>
                     <p>{doctor.department}</p>
                     <span>{doctor.qualification}</span>
-                    <Link to={`/doctors/${doctor.id}`}><i className="fal fa-plus"></i></Link>
+                    <Link to={`/doctors/${doctor.slug}`}><i className="fal fa-plus"></i></Link>
                 </div>
             </div>
         </div>

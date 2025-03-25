@@ -33,8 +33,10 @@ function Header() {
                         <li className="nav-item">
                             <NavLink to="/appointment" className="nav-link" >Appointment</NavLink>
                         </li>
-                        
-                         <li className="nav-item">
+                        <li className="nav-item">
+                            <NavLink to="/medicines" className="nav-link" >Medicines</NavLink>
+                        </li>
+                        <li className="nav-item">
                             <NavLink to="/about" className="nav-link" >About Us</NavLink>
                         </li>
                     </ul>

@@ -1860,6 +1860,14 @@ button:focus {
   left: 0;
 }
 
+.team_designation.none-icon span {
+  padding: 0;
+}
+
+.team_designation.none-icon span::after {
+  content: "";
+}
+
 .team_designation a {
   position: absolute;
   top: 50%;
