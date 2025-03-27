@@ -6,7 +6,7 @@ import MakeAnAppointment from "./_components/MakeAnAppointment";
 function MedicinesDetail() {
     return (
         <>
-            <Breadcrumb title="Name Here" />
+            <Breadcrumb title="Medicine Detail" />
             <section className="team_details pt_100 xs_pt_70 pb_100 xs_pb_70">
                 <div className="container">
                     <div className="row">
@@ -14,12 +14,12 @@ function MedicinesDetail() {
                             <div className="row">
                                 <div className="col-xl-5 col-md-5 col-lg-5">
                                     <div className="team_details_img">
-                                        <img src="/assets/images/team-2.jpg" alt="team" className="img-fluid w-100" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaFs3maAI8CLLBySqiGyMcIxCuCkSW1rgLkg&s" alt="team" className="img-fluid w-100" />
                                     </div>
                                 </div>
                                 <div className="col-xl-7 col-md-7 col-lg-7">
                                     <div className="team_details_img_text">
-                                        <h3>Dr. Sabrina Khan</h3>
+                                        <h3>Medicine detail</h3>
                                         <p>MBBS (University of Wyoming).</p>
                                         <p>M.D. of Medicine (Netherland Medical College).</p>
                                         <p><b>Senior Prof. (MBBS, M.D)</b> Netherland Medical College.</p>
