@@ -15,6 +15,8 @@ import Register from "@/pages/Auth/Register";
 import Payment from "@/pages/Payment";
 import Medicines from "@/pages/Medicines";
 import MedicinesDetail from "@/pages/Medicines/MedicinesDetail";
+import Diseases from "@/pages/Diseases";
+import DiseasesDetail from "@/pages/Diseases/DiseasesDetail";
 
 const publicRoutes = [
     { path: configs.routes.home, component: Home },
@@ -23,6 +25,8 @@ const publicRoutes = [
     { path: configs.routes.doctors_detail, component: DoctorsDetail },
     { path: configs.routes.medicines, component: Medicines },
     { path: configs.routes.medicines_detail, component: MedicinesDetail },
+    { path: configs.routes.diseases, component: Diseases },
+    { path: configs.routes.diseases_detail, component: DiseasesDetail },
     { path: configs.routes.payment, component: Payment },
     { path: configs.routes.about, component: About },
     { path: configs.routes.login, component: Login, layout: null },

@@ -37,6 +37,9 @@ function Header() {
                             <NavLink to="/medicines" className="nav-link" >Medicines</NavLink>
                         </li>
                         <li className="nav-item">
+                            <NavLink to="/diseases" className="nav-link" >Diseases</NavLink>
+                        </li>
+                        <li className="nav-item">
                             <NavLink to="/about" className="nav-link" >About Us</NavLink>
                         </li>
                     </ul>
